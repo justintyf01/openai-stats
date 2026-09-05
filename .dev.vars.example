@@ -1,0 +1,2 @@
+# Local development only. Copy to .dev.vars and supply your own admin key.
+OPENAI_ADMIN_KEY=""

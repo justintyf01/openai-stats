@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openai-readme-stats",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-05",
+  "workers_dev": true,
+  "vars": {
+    "DAYS": "365",
+    "THEME": "github-dark",
+    "TITLE": "Token activity"
+  }
+  // Set OPENAI_ADMIN_KEY using `npx wrangler secret put OPENAI_ADMIN_KEY`.
+  // Optional: add PROJECT_IDS as a comma-separated list to vars above.
+}
